@@ -8,8 +8,8 @@ export default function Header() {
     <div className='flex justify-between mx-2 max-w-6xl sm:mx-auto items-center py-6 select-none'>
 
       <div className='flex'>
-        <MenuItem title={'HOME'} address={'/'} icon={<FaHome className='text-3xl sm:hidden mx-4' />} />
-        <MenuItem title={'ABOUT'} address={'/about'} icon={<FaInfoCircle className='text-3xl sm:hidden mx-4' />} />
+        <MenuItem title={'HOME'} address={'/'} icon={<FaHome className='text-3xl sm:hidden mx-2' />} />
+        <MenuItem title={'ABOUT'} address={'/about'} icon={<FaInfoCircle className='text-3xl sm:hidden mx-2' />} />
       </div>
 
       <div className='flex items-center space-x-5'>
