@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FaThumbsUp } from "react-icons/fa";
 
-export default function Card({ result }) {
+export default function Card({ result={} }) {
   return (
     <div className='cursor-pointer sm:p-3 sm:hover:shadow-slate-500 shadow-md rounded-lg sm:border sm:border-slate-500 sm:m-2 transition-shadow transition-duration-200 group'>
         <Link href={`/movie/${result.id}`}>
